@@ -24,6 +24,9 @@
   <a href="https://roots.io/sage/">Website</a> &nbsp;&nbsp; <a href="https://roots.io/sage/docs/installation/">Documentation</a> &nbsp;&nbsp; <a href="https://github.com/roots/sage/releases">Releases</a> &nbsp;&nbsp; <a href="https://discourse.roots.io/">Community</a>
 </p>
 
+## Adjustments for SCSS (SASS)
+See the [commits](https://github.com/strarsis/sage10-scss/commits/master) for the required steps.
+
 ## Sponsors
 
 Sage is an open source project and completely free to use. If you've benefited from our projects and would like to support our future endeavors, please consider [sponsoring Roots](https://github.com/sponsors/roots).
