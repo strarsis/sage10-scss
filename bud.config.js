@@ -1,3 +1,5 @@
+import WpEditorQueryPlugin from 'wp-editor-query-plugin';
+
 /**
  * Compiler configuration
  *
@@ -7,6 +9,25 @@
  * @param {import('@roots/bud').Bud} app
  */
 export default async (app) => {
+
+  await app.extensions.add(new WpEditorQueryPlugin())
+
+  app.build.setLoader(
+    `editor-extract-loader`,
+    WpEditorQueryPlugin.loader
+  )
+
+  app.build.setItem(`wp-editor`, {
+    loader: `editor-extract-loader`,
+    options: {
+      include: ['app'],
+      adopt: ['editor'],
+    },
+  })
+
+  app.build.rules.css.setUse(items => ['precss', 'css', 'wp-editor', 'postcss'])
+
+
   /**
    * Application assets & entrypoints
    *
