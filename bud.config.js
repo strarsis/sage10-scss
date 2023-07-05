@@ -25,7 +25,7 @@ export default async (app) => {
     },
   })
 
-  app.build.rules.css.setUse(items => ['precss', 'css', 'wp-editor', 'postcss'])
+  app.build.rules.sass.setUse(items => ['minicss', 'css', 'wp-editor', 'postcss', 'resolveUrl', 'sass'])
 
 
   /**
