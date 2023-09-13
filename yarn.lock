@@ -3405,10 +3405,10 @@ browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.6, browserslist@^4
     node-releases "^2.0.8"
     update-browserslist-db "^1.0.10"
 
-bud-wp-editor-query@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/bud-wp-editor-query/-/bud-wp-editor-query-0.0.3.tgz"
-  integrity sha512-B/79wwJb9bzbjB03D06OLqKSxvrS50T9DG+G83lWC765c+aQTq5zcQJT1kNr2kZ716OcyXBOaIaqtnsAo2pscw==
+bud-wp-editor-query@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/bud-wp-editor-query/-/bud-wp-editor-query-0.0.4.tgz"
+  integrity sha512-MzLW7RpOq3Qx+p4wFbp8JL8TidJ5JYvBl6dB0jNtKNgEEfOyOkZjlnQAHQmpm1ZrLBqsN1jUkYjt+Q7nskLTNw==
   dependencies:
     css-mediaquery "^0.1.2"
 
