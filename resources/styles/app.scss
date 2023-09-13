@@ -8,3 +8,13 @@ $test-1: red;
 .test-1 {
   color: $test-1;
 }
+
+
+@media (wp-editor) {
+  /* Style is ONLY in editor CSS */
+
+  .your-styles-here {
+    color: blue;
+  }
+}
+
